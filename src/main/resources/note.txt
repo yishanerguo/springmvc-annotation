@@ -18,3 +18,10 @@
 总结:
    以注解方式来启动springmvc:继承AbstractAnnotationConfigDispatcherServletInitializer
    实现抽象方法指定DispatcherServlet的配置信息:
+
+
+===================================
+自己定制springmvc
+1.@EnableWebMvc:开启springmvc定制配置功能:
+  <mvc:annotation-driven/>
+2.配置组件(视图解析器,视图映射,静态资源映射,拦截器....)

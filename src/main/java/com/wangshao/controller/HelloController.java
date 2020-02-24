@@ -23,4 +23,9 @@ public class HelloController {
         String hello = helloService.sayHello("tomcat.....");
         return hello;
     }
+
+    @RequestMapping("/suc")
+    public String success(){
+        return "success";
+    }
 }
